@@ -1,0 +1,71 @@
+body {
+    background-image: url('pictureone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+    
+}
+.header-image{
+	padding: 5px 10px;
+    
+}
+h1{
+    
+    font-family: "lucida handwriting";
+    text-align: center;
+    font-size: 300%;
+    margin-top: 3%;
+}
+img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 3%;
+    
+}
+.image{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 3%;
+
+}
+h2{
+    background-color: rgba(225, 58, 191, 0.4);
+	border-radius: 6px;
+	text-align: center;
+    margin-top: 5%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    padding: 10px;
+}
+.topnav{
+	
+    overflow: hidden;
+}
+.topnav a{
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 6px;
+    margin: 10px;
+}
+.topnav a:hover{
+    background-color: #b665d3;
+    color: black;
+}
+.topnav a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+p{
+    float: right;
+    font-family: "lucida handwriting";
+    margin-right: 20%;
+    font-size: 30px;
+}
+    
